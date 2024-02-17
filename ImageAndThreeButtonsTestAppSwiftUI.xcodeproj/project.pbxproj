@@ -20,7 +20,6 @@
 		0D9AD0612B7D4AE000651512 /* ImageDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD0602B7D4AE000651512 /* ImageDescriptionView.swift */; };
 		0D9AD0642B7D4DB600651512 /* Image+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD0632B7D4DB600651512 /* Image+Init.swift */; };
 		0D9AD0682B7D51B400651512 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD0672B7D51B400651512 /* MainViewModel.swift */; };
-		0D9AD06A2B7D52CD00651512 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD0692B7D52CD00651512 /* ButtonView.swift */; };
 		0D9AD06D2B7E01F000651512 /* BlueButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD06C2B7E01F000651512 /* BlueButtonModifier.swift */; };
 		0D9AD06F2B7E105E00651512 /* AppSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD06E2B7E105E00651512 /* AppSizes.swift */; };
 		0D9AD0712B7E12F100651512 /* AppConstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AD0702B7E12F100651512 /* AppConstances.swift */; };
@@ -41,7 +40,6 @@
 		0D9AD0602B7D4AE000651512 /* ImageDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDescriptionView.swift; sourceTree = "<group>"; };
 		0D9AD0632B7D4DB600651512 /* Image+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Init.swift"; sourceTree = "<group>"; };
 		0D9AD0672B7D51B400651512 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		0D9AD0692B7D52CD00651512 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		0D9AD06C2B7E01F000651512 /* BlueButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonModifier.swift; sourceTree = "<group>"; };
 		0D9AD06E2B7E105E00651512 /* AppSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSizes.swift; sourceTree = "<group>"; };
 		0D9AD0702B7E12F100651512 /* AppConstances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstances.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				0D9AD0502B7D491E00651512 /* AppDelegate.swift */,
 				0D9AD0522B7D493B00651512 /* SceneDelegate.swift */,
 				0D9AD04C2B7D48C300651512 /* Screens */,
-				0D9AD04F2B7D48E600651512 /* Views */,
 				0D9AD04E2B7D48D900651512 /* Utilities */,
 				0D9AD04D2B7D48CF00651512 /* Coordinator */,
 				0D9AD06B2B7E01CA00651512 /* Modifiers */,
@@ -127,14 +124,6 @@
 				0D9AD0702B7E12F100651512 /* AppConstances.swift */,
 			);
 			path = Utilities;
-			sourceTree = "<group>";
-		};
-		0D9AD04F2B7D48E600651512 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				0D9AD0692B7D52CD00651512 /* ButtonView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		0D9AD0622B7D4D8B00651512 /* Extensions */ = {
@@ -245,7 +234,6 @@
 				0D9AD06D2B7E01F000651512 /* BlueButtonModifier.swift in Sources */,
 				0D9AD05B2B7D4A0C00651512 /* MapRouter.swift in Sources */,
 				0D9AD0712B7E12F100651512 /* AppConstances.swift in Sources */,
-				0D9AD06A2B7D52CD00651512 /* ButtonView.swift in Sources */,
 				0D9AD05F2B7D4ABF00651512 /* MainView.swift in Sources */,
 				0D9AD0642B7D4DB600651512 /* Image+Init.swift in Sources */,
 				0D9AD0532B7D493B00651512 /* SceneDelegate.swift in Sources */,
